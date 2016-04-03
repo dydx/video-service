@@ -15,6 +15,8 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "angular": "^1.5.3"
+    "angular": "^1.5.3",
+    "video.js": "^5.8.7",
+    "vjs-video": "^0.1.5"
   }
 }
