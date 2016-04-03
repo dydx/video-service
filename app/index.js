@@ -1,5 +1,5 @@
 var angular = require('angular');
-var app = angular.module('app', []);
+var uirouter = require('angular-ui-router').default;
+var app = angular.module('app', [uirouter]);
 
-// load up our modules and inject our app
 require('./modules')(app);

@@ -1,7 +1,9 @@
-  module.exports = function VideoFactory () {
-    var videos = ['one', 'two', 'three'];
+  module.exports = function VideoFactory ($http) {
+    function getVideos () {
+      return $http.get('http://localhost:3000/videos');
+    }
 
     return {
-      videos: videos
+      getVideos: getVideos
     }
   }

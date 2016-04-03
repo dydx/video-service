@@ -2,23 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <base href="/">
   <title>Video Services</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body ng-app="app">
   <div class="container">
+
     <div class="page-header">
       <h1>Video Services</h1>
     </div>
+
     <div class="col-md-8">
-
       <nbl-video></nbl-video>
+    </div>
 
-    </div>
     <div class="col-md-4">
-      <nbl-videos></nbl-videos>
+      <nbl-video-list></nbl-video-list>
     </div>
+
   </div>
 
   <script src="bundle.js"></script>

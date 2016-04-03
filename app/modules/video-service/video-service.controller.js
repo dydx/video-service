@@ -1,4 +1,9 @@
   module.exports = function VideosController (VideoFactory) {
-    this.videos = VideoFactory.videos;
-  }
+    var vm = this;
 
+    VideoFactory
+      .getVideos()
+      .then(function (res) {
+        vm.videos = res.data;
+      });
+  }

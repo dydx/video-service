@@ -1,0 +1,22 @@
+{
+  "videos": [
+    {
+      "baseUrl": "https://s3-us-west-2.amazonaws.com",
+      "basePath": "nbl-egghead",
+      "file": "01-egghead-angularjs-angular-with-webpack-introduction.mp4",
+      "title": "AngularJS with Webpack Introduction"
+    },
+    {
+      "baseUrl": "https://s3-us-west-2.amazonaws.com",
+      "basePath": "nbl-egghead",
+      "file": "01-egghead-angularjs-angularjs-architecture-series-introduction.mp4",
+      "title": "AngularJS Architecture Introduction"
+    },
+    {
+      "baseUrl": "https://s3-us-west-2.amazonaws.com",
+      "basePath": "nbl-egghead",
+      "file": "01-egghead-angularjs-json-web-token-jwt-introduction.mp4",
+      "title": "AngularJS JWT Introduction"
+    }
+  ]
+}
