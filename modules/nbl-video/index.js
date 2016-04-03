@@ -1,4 +1,7 @@
 module.exports = function (ngModule) {
+
+  // <nbl-video src="some/video/url"></nbl-video>
+
   ngModule.directive('nblVideo', function () {
     return {
       restrict: 'E',
